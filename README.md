@@ -5,10 +5,10 @@
   - Create a view of type ATScrollView, or asign the class to a Storyboard view
   - Set up the class:
     ```swift 
-    setHeaderView(:_) 
+    setHeaderView(_:) 
     ```
     ```swift 
-    setContentView(:_) 
+    setContentView(_:) 
     ```
   - Configure
     ```swift 
@@ -16,4 +16,8 @@
     ```
     ```swift 
     maxHeaderHeight
+    ```
+   - Optional
+   ```swift 
+    setScrollViewDelegate(_:)
     ```
