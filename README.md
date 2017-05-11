@@ -18,6 +18,6 @@
     maxHeaderHeight
     ```
    - Optional
-   ```swift 
+    ```swift 
     setScrollViewDelegate(_:)
     ```
